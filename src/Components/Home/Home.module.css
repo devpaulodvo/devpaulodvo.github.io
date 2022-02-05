@@ -1,0 +1,35 @@
+.container {
+  background-color: #F0F7EE;
+}
+.maintext {
+  color: #000000;
+}
+.subtext {
+  color: #5D737E;
+}
+.img {
+  border-radius: 50%;
+}
+
+
+@media (min-width: 767px) {
+  .contentContainer{
+    display: flex;
+    width:60em;
+    padding: 2rem;
+    margin: auto;
+    justify-content: space-evenly;
+  }
+  .about{
+    width: 50em;
+    margin: auto;
+    text-align: center;
+    padding-bottom: 30px;
+  }
+}
+
+@media (max-width: 766px) {
+  .contentContainer{
+    padding-top: 20px;
+  }
+}

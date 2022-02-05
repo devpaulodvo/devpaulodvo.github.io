@@ -1,0 +1,11 @@
+.flexContainer{
+    padding: 1rem;
+    background-color: #5D737E;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    display: flex;
+  }
+
+.navItems {
+  cursor: pointer;
+}
