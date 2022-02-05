@@ -11,8 +11,12 @@ import Projects from './Components/Projects/Projects';
 const App = () => {
   return(
     <React.Fragment>
-      <Home/>
-      <Projects/>
+      <NavBar/>
+      <Switch>
+        <Route exact path='/' element={<Home/>}/>
+        <Route exact path='/portfolio' element={<Home/>}/>
+        <Route path='/projects' element={< Projects/>}/>
+      </Switch>
     </React.Fragment>
   )
 }
