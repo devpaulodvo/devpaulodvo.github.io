@@ -6,12 +6,14 @@
   height:fit-content;
 }
 
+
 @media (min-width: 767px) {
   .contentContainer{
     display: flex;
     width:60em;
-    padding: 1rem;
-    height:fit-content;
+    padding: 2rem;
+    margin: auto;
+    height: 100vh;
     justify-content: space-evenly;
   }
     .card{
@@ -24,6 +26,15 @@
     padding-top: 2ch;
     padding-left: 10em;
     padding-right: 10em;
+  }
+}
+@media (max-width: 1040px) {
+  .contentContainer{
+    display: flex;
+    width:40em;
+    padding: 2rem;
+    height: auto;
+    justify-content: space-evenly;
   }
 }
 
