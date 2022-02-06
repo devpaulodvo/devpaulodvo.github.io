@@ -32,11 +32,11 @@ const Home = () => {
                     </div>
                     <div className={`${styles.list} flex`}>
                         <img className={`w-6  mr-1`} src={git}/>
-                        <label className="cursor-pointer" onClick={()=>window.open("https://github.com/devpaulodvo")}>https://github.com/devpaulodvo</label>
+                        <label className="cursor-pointer duration-500 hover:text-orange-500" onClick={()=>window.open("https://github.com/devpaulodvo")}>https://github.com/devpaulodvo</label>
                     </div>
                     <div className={`${styles.list} flex`}>
                         <img className={`w-6  mr-1`} src={nine}/>
-                        <label className="cursor-pointer" onClick={()=>window.open("https://99designs.com/profiles/waki")}>https://99designs.com/profiles/waki</label>
+                        <label className="cursor-pointer duration-500 hover:text-orange-500" onClick={()=>window.open("https://99designs.com/profiles/waki")}>https://99designs.com/profiles/waki</label>
                     </div>
                 </div>
             </div>

@@ -15,13 +15,13 @@ const Projects = () => {
                         <div className={`mb-3 flex flex-wrap`}>
                             {
                                 dat.tags.map((tag=>
-                                    <p className={`cursor-pointer m-1 p-1 bg-slate-500 text-cyan-50 hover:bg-slate-700`}>
+                                    <p className={`cursor-pointer m-1 p-1 text-cyan-50 duration-500 bg-slate-700 opacity-60 hover:opacity-100`}>
                                         {tag}
                                     </p>
                                     ))
                             }
                         </div>
-                        <label onClick={()=>window.open(dat.see)} className={`text-cyan-400 cursor-pointer hover:text-amber-300`}>See code</label>
+                        <label onClick={()=>window.open(dat.see)} className={`text-cyan-500 cursor-pointer duration-500 hover:text-amber-300`}>See code</label>
                     </div>
                 )
             }
