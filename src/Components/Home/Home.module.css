@@ -26,10 +26,29 @@
     text-align: center;
     padding-bottom: 30px;
   }
+  .img{
+    width: 20rem;
+  }
 }
 
 @media (max-width: 766px) {
+  .container{
+    align-items: center;
+    text-align: center;
+    padding: 2rem;
+  }
   .contentContainer{
-    padding-top: 20px;
+    text-align: center;
+    align-items: center;
+  }
+  .list {
+    justify-content: center;
+  }
+  .about{
+    margin-top: 2rem;
+  }
+  .img{
+    margin: auto;
+    margin-bottom: 2rem;
   }
 }

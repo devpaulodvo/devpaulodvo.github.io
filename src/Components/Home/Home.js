@@ -14,27 +14,27 @@ const Home = () => {
     return(
         <div className={ `${styles.container}`}>
             <div className={`${styles.contentContainer}`}>
-                <img src={me} alt="me" className={`${styles.img} w-60 md:w-80`}/>
+                <img src={me} alt="me" className={`${styles.img} w-60`}/>
                 <div className={`md:mt-10 sm:mt-10`}>
                     <div className={`${styles.maintext} font-serif font-semibold text-6xl`}>Hi, I am Paulo</div>
                     <div className={`${styles.subtext}`}>Software Developer, Graphics Designer</div>
-                    <div className={`flex mt-5`}>
+                    <div className={`${styles.list} flex mt-5`}>
                         <img className={`w-6  mr-1`} src={pin}/>
                         <label>Philippines</label>
                     </div>
-                    <div className={`flex`}>
+                    <div className={`${styles.list} flex`}>
                         <img className={`w-6  mr-1`} src={mortarboard}/>
-                        <label>Bachelor of Science in Information and Technology</label>
+                        <label className={`md: truncate`}>Bachelor of Science in Information and Technology</label>
                     </div>
-                    <div className={`flex`}>
+                    <div className={`${styles.list} flex`}>
                         <img className={`w-6  mr-1`} src={email}/>
                         <label>devpaulodvo@gmail.com</label>
                     </div>
-                    <div className={`flex`}>
+                    <div className={`${styles.list} flex`}>
                         <img className={`w-6  mr-1`} src={git}/>
                         <label className="cursor-pointer" onClick={()=>window.open("https://github.com/devpaulodvo")}>https://github.com/devpaulodvo</label>
                     </div>
-                    <div className={`flex`}>
+                    <div className={`${styles.list} flex`}>
                         <img className={`w-6  mr-1`} src={nine}/>
                         <label className="cursor-pointer" onClick={()=>window.open("https://99designs.com/profiles/waki")}>https://99designs.com/profiles/waki</label>
                     </div>
