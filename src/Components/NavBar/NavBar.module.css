@@ -4,6 +4,8 @@
     color: rgb(255, 255, 255);
     text-align: center;
     display: flex;
+    height: auto;
+    width: 100%;
   }
 
 .navItems {

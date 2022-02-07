@@ -20,5 +20,23 @@ export const data = [
         img: remind,
         tags: ['React Native', 'JavaScript', 'Mobile', 'Firebase', 'MySQL', 'Node JS', 'IOS', 'Android'],
         see: 'https://github.com/devpaulodvo/remind'
-    }
+    },
+    // {
+    //     key:3,
+    //     title: 'Remind',
+    //     disc: 'This is my 1st react native application. This is a multi-function application, from to do list, geolocation, google maps, chat, picture camera up to gallery. This app is still under development.',
+    //     alt:'remind',
+    //     img: remind,
+    //     tags: ['React Native', 'JavaScript', 'Mobile', 'Firebase', 'MySQL', 'Node JS', 'IOS', 'Android'],
+    //     see: 'https://github.com/devpaulodvo/remind'
+    // },
+    // {
+    //     key:4,
+    //     title: 'Remind',
+    //     disc: 'This is my 1st react native application. This is a multi-function application, from to do list, geolocation, google maps, chat, picture camera up to gallery. This app is still under development.',
+    //     alt:'remind',
+    //     img: remind,
+    //     tags: ['React Native', 'JavaScript', 'Mobile', 'Firebase', 'MySQL', 'Node JS', 'IOS', 'Android'],
+    //     see: 'https://github.com/devpaulodvo/remind'
+    // }
 ]
